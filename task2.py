@@ -1,0 +1,8 @@
+n = int(input('How many students were there? '))
+k = int(input('How many apples did they have at the beginning? '))
+print ('Each student will get: ' + str(k // n) + ' apple(s).')
+print ('And then, in the basket will remain: ' + str(k % n) + ' apple(s).')
+print (' ')
+print ('OR')
+print (' ')
+print('Each of ' + str(n) + ' students will take ' + str(k // n) + ' apple(s), and in the basket will remain ' + str(k % n) + '.')
